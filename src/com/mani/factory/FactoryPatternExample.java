@@ -1,5 +1,7 @@
 package com.mani.factory;
 
+import java.util.Calendar;
+
 /**
  * Created by gbs05347 on 26-11-2019.
  */
@@ -15,6 +17,8 @@ public class FactoryPatternExample {
         System.out.println("processor: "+asusPhone.processor()+" battery:"+asusPhone.battery()+" OS: "+asusPhone.os());
         Phone iPhone=PhoneFactory.getPhone(PhoneType.IPHONE);
         System.out.println("processor: "+iPhone.processor()+" battery:"+iPhone.battery()+" OS: "+iPhone.os());
-
+        int day= Calendar.getInstance().getFirstDayOfWeek();
+        System.out.println(day);
     }
+
 }
