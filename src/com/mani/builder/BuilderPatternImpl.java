@@ -14,14 +14,15 @@ public class BuilderPatternImpl {
 
 /**
  *      Phone iPHone = new Phone(builder);
- *      We cant create a phone object directly since we made it as a private constructor
+ *      We can't create a phone object directly since we made it as a private constructor
  *      We can create instance to phone only through builder object
  *       Phone.PhoneBuilder builder = new Phone.PhoneBuilder();
  *      we need to create a instance of builder to create instance of a phone
  */
         Phone asusPhone = new Phone.PhoneBuilder().setbattery("5000mah").setCamera("48 mp").setname("Asus z").setProcessor("sd 865").build();
         System.out.println("Immutable object created tru design pattern" + asusPhone);
-
+        Phone zeePHone=new Phone.PhoneBuilder().build();
+        System.out.println(zeePHone);
 
     }
 }
