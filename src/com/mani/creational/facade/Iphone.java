@@ -1,4 +1,4 @@
-package com.mani.facade;
+package com.mani.creational.facade;
 
 public class Iphone implements Phone{
     @Override

@@ -1,4 +1,4 @@
-package com.mani.singleton;
+package com.mani.creational.singleton;
 
 import java.math.BigDecimal;
 

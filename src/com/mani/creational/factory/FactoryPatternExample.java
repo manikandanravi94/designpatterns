@@ -1,4 +1,4 @@
-package com.mani.factory;
+package com.mani.creational.factory;
 
 import java.util.Calendar;
 

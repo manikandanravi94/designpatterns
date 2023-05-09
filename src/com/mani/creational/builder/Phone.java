@@ -1,4 +1,4 @@
-package com.mani.builder;
+package com.mani.creational.builder;
 
 /**
  * Created by gbs05347 on 30-04-2020.
