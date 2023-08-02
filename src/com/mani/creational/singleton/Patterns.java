@@ -10,7 +10,8 @@ public class Patterns {
         System.out.println(singletonPatternInstance.hashCode());
         BigDecimal salary =singletonPatternInstance.getSalary(employee);
         IEmployeeDetail singletonPatternInstance1= EmployeeDetailImpl.getSingletonPatternInstance();
-        System.out.println(singletonPatternInstance1.getSalary(employee));
+        Employee employee1=new Employee("manikandan", "Ravi", "Sofware developer", new BigDecimal(30000));
+        System.out.println(singletonPatternInstance1.getSalary(employee1));
         System.out.println(singletonPatternInstance1.hashCode());
         System.out.println("salary of a employee: "+salary);
     }
