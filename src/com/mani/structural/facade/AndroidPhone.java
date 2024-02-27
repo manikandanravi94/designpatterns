@@ -1,4 +1,4 @@
-package com.mani.creational.facade;
+package com.mani.structural.facade;
 
 public class AndroidPhone implements Phone{
     @Override

@@ -1,4 +1,4 @@
-package com.mani.creational.facade;
+package com.mani.structural.facade;
 
 //it is used to hide complex logic written in subsystem to client..
 //disadvantage -- > more the facade class in your app.. it shows more complex ur system is.
